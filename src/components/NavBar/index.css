@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-body{
+*{
   margin:0;
-  padding: 0;
+  padding:0;
 }
 
-.navbar-container{
-  background-color: #add8e6;
-  font-size: 30px;
-  font-family: "Roboto";
-  display:flex;
-  justify-content: center;
-  position: relative;
-
+.nav-header{
+  background-color: #55d6aa;
+  width: 100%;
 }
 
-.weather{
+.nav-container{
+  background-color: #55d6aa;
+  width: 80%;
+  margin: 0 auto;
+}
 
-  padding: 5px;
-  overflow:hidden;
+.logo{
+  float: left;
 }
