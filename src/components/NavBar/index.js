@@ -1,25 +1,43 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import './index.css'
+import './index.css';
 
 
 const NavBar = ()=>{
 
   return(
-    <div className="nav-header">
-      <div className="nav-container">
-      <h1 className="logo"> Logo</h1>
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/">Contact</Link></li>
-            <li><Link to="/">Info</Link></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+
+      <div>
+        <div className="headers">1906 14th street nw, washington, dc 20009 (202) 518 7926</div>
+        <div className="nav-container">
+        <h1 className="logo"> Logo</h1>
+
+            <ul className="ul-container">
+              <li><Link className="nav-links" to="/">"Bee Home"</Link></li>
+              <li><Link className="nav-links"  to="/">Carry Out</Link></li>
+              <li><Link className="nav-links" to="/">Our Story</Link></li>
+              <li><Link className="nav-links"  to="/">Private Events</Link></li>
+              <li><Link className="nav-links"  to="/">Gift Cards</Link></li>
+              <li className="dropdown">
+                <Link className="nav-links"  to="/">Contact</Link>
+                <div className='dropdown-content'>
+                  <Link className="dropdown-links"  to="/">Twitter</Link>
+                  <Link className="dropdown-links"  to="/">Instagram</Link>
+                  <Link className="dropdown-links"  to="/">Only Fans</Link>
+                </div>
+              </li>
+                <li>
+                  <Link className="nav-links orders" to="/">
+                      <span className="order-text">
+                      Order Now
+                      </span>
+                  </Link>
+                </li>
+            </ul>
+        </div>
+        </div>
+
   )
 }
 
