@@ -9,7 +9,7 @@ const NavBar = ()=>{
   return(
 
       <div>
-        <div className="headers">1906 14th street nw, washington, dc 20009 (202) 518 7926</div>
+        <div className="headers">1111 11th street nw, washington, dc 20009 (111) 111 1111</div>
         <div className="nav-container">
         <h1 className="logo"> Logo</h1>
 
