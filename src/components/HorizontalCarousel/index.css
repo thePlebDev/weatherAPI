@@ -7,28 +7,15 @@
   width: 100%;
   postion: relative;
   margin:auto;
+  background-color: #011839;
+  border:none;
+
 
 }
 
-.next, .previous{
-  position:absolute;
-  top: 50%;
-  width: auto;
-  cursor: pointer;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-.next{
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.previous:hover, .next:hover{
-  background-color: rgba(0,0,0,0.8);
+.blue-box{
+  margin-top: 0;
+  height: 1000px;
+  width: 100%;
+  background-color: #011839;
 }

@@ -16,7 +16,7 @@ const HorizontalCarousel =()=>{
         <div className="view-port">
               <div className="card-container" >
                 <Card/>
-              </div>
+              </div><div className="blue-box"></div>
 
         </div>
     )
