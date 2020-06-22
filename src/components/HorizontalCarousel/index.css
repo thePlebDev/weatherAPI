@@ -1,6 +1,7 @@
 
 .view-port{
   width: 100%;
+  position: relative;
 }
 
 .card-container{

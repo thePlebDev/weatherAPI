@@ -1,0 +1,21 @@
+.about-container{
+  position: absolute;
+  top: 41%;
+  left: 15%;
+
+  width: 1000px;
+  height: 500px;
+
+  background-color: #DCDCDC;
+  box-shadow: 0 0 20px -10px currentcolor;
+  display:flex;
+}
+
+.text, .image{
+  width: 50%;
+
+}
+
+.text{
+  margin: 10px;
+}

@@ -15,7 +15,9 @@ const ImageSlider =(props)=>{
         transitionName="example"
         transitionEnterTimeout={500}
         transitionLeaveTimeout={300}>
-          <img alt="food" className="food-imgs" key={urlNum} src={url[urlNum]} />
+          <div className="image-container" >
+            <img alt="food" className="food-imgs"  src={url[urlNum]} />
+          </div>
       </CSSTransitionGroup>
 
     </div>
