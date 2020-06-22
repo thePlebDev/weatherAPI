@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import Card from '../Card';
 
 
@@ -15,7 +16,7 @@ const HorizontalCarousel =()=>{
     return(
         <div className="view-port">
               <div className="card-container" >
-                <Card/>
+                    <Card/>
               </div><div className="blue-box"></div>
 
         </div>
