@@ -8,7 +8,7 @@ const AboutText = ()=>{
 
   return(
     <div className="text-container">
-      <h2 className='about-text all-text'>About</h2>
+      <h2 className='about-text'>About</h2>
       <p className='all-text'>Neo-Bistro:</p>
       <p className="font-style all-text">
         <em>noun</em>

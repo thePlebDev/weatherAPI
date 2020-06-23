@@ -1,0 +1,16 @@
+.location-card-container{
+  position: absolute;
+  top: 68.7%;
+  left: 15%;
+
+  width: 1000px;
+  height: 344px;
+  background-color: white;
+  display: flex;
+  box-shadow: 0 0 20px -10px currentcolor;
+}
+
+.location, .about{
+
+width: 50%;
+}
